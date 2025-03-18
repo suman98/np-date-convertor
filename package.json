@@ -4,9 +4,20 @@
   "description": "A simple Nepali date conversion utility",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"No tests specified\" && exit 0"
+    "test": "jest"
   },
-  "keywords": ["nepali", "date", "convertor"],
+  "keywords": [
+    "nepali",
+    "date",
+    "convertor"
+  ],
   "author": "Your Name",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "get-nepali-number": "^0.2.0",
+    "get-nepday-of-week": "^0.1.4"
+  }
 }
