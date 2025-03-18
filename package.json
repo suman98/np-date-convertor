@@ -1,0 +1,12 @@
+{
+  "name": "np-date-convertor",
+  "version": "1.0.0",
+  "description": "A simple Nepali date conversion utility",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": ["nepali", "date", "convertor"],
+  "author": "Your Name",
+  "license": "MIT"
+}
